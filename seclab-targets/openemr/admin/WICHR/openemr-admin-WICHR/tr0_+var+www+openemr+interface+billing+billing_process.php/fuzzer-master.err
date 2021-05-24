@@ -1,0 +1,65 @@
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+The output method has been executed again
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Warning:  fopen(/tmp/cachedCourier.php): failed to open stream: Permission denied in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2039
+PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2040
+PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /var/www/openemr/vendor/rospdf/pdf-php/src/Cpdf.php on line 2041
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined index: left_margin in /var/www/openemr/interface/billing/billing_process.php on line 65
+PHP Warning:  A non-numeric value encountered in /var/www/openemr/interface/billing/billing_process.php on line 65
+PHP Wa

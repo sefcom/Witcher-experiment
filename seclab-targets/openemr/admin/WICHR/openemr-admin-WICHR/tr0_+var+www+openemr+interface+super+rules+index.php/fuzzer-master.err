@@ -1,0 +1,73 @@
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined property: stdClass::$helpers in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 78
+PHP Notice:  Undefined property: stdClass::$_template in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 97
+PHP Notice:  Undefined property: stdClass::$_forward in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 44
+PHP Notice:  Undefined property: stdClass::$_redirect in /var/www/openemr/interface/super/rules/base/library/ActionRouter.php on line 50
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined index: action in /var/www/openemr/interface/super/rules/library/RulesPlanMappingEventHandlers_ajax.php on line 31
+PHP Notice:  Undefined index: action in /var/www/openemr/interface/super/rules/include/common.php on line 40
+PHP Notice:  Undefined offset: 1 in /var/www/openemr/interface/super/rules/base/library/ControllerRouter.php on line 25
+PHP Fatal error:  Uncaught Error: Call to undefined function Exception() in /var/www/openemr/interface/super/rules/include/common.php:99
+Stack trace:
+#0 /var/www/openemr/interface/super/rules/base/library/ControllerRouter.php(27): controller_dir('')
+#1 /var/www/openemr/interface/super/rules/index.php(5): ControllerRouter->route()
+#2 {main}
+  thrown in /var/www/openemr/interface/super/rules/include/common.php on line 99
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Fatal error:  Uncaught Error: Call to undefined function Exception() in /var/www/openemr/interface/super/rules/include/common.php:99
+Stack trace:
+#0 /var/www/openemr/interface/super/rules/base/library/ControllerRouter.php(27): controller_dir('se')
+#1 /var/www/openemr/interface/super/rules/index.php(5): ControllerRouter->route()
+#2 {main}
+  thrown in /var/www/openemr/interface/super/rules/include/common.php on line 99
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "cont

@@ -1,0 +1,82 @@
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined index: ParentPage in /var/www/openemr/interface/billing/payment_master.inc.php on line 163
+PHP Notice:  Undefined variable: CheckDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 198
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 208
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 214
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 229
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 244
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 250
+PHP Notice:  Undefined variable: AdjustmentCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 257
+PHP Notice:  Undefined variable: AdjustmentCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 264
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 269
+PHP Notice:  Undefined variable: div_after_save in /var/www/openemr/interface/billing/payment_master.inc.php on line 284
+PHP Notice:  Undefined variable: div_after_save in /var/www/openemr/interface/billing/payment_master.inc.php on line 284
+PHP Notice:  Undefined variable: TypeCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 293
+PHP Notice:  Undefined variable: DepositDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 300
+PHP Notice:  Undefined variable: Description in /var/www/openemr/interface/billing/payment_master.inc.php on line 304
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 305
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 305
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 306
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined index: ParentPage in /var/www/openemr/interface/billing/payment_master.inc.php on line 163
+PHP Notice:  Undefined variable: CheckDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 198
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 208
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 214
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 229
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 244
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 250
+PHP Notice:  Undefined variable: AdjustmentCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 257
+PHP Notice:  Undefined variable: AdjustmentCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 264
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 269
+PHP Notice:  Undefined variable: div_after_save in /var/www/openemr/interface/billing/payment_master.inc.php on line 284
+PHP Notice:  Undefined variable: div_after_save in /var/www/openemr/interface/billing/payment_master.inc.php on line 284
+PHP Notice:  Undefined variable: TypeCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 293
+PHP Notice:  Undefined variable: DepositDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 300
+PHP Notice:  Undefined variable: Description in /var/www/openemr/interface/billing/payment_master.inc.php on line 304
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 305
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 305
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 306
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined index: ParentPage in /var/www/openemr/interface/billing/payment_master.inc.php on line 163
+PHP Notice:  Undefined variable: CheckDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 198
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 208
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 214
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 229
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 244
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 250
+PHP Notice:  Undefined variable: AdjustmentCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 257
+PHP Notice:  Undefined variable: AdjustmentCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 264
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 269
+PHP Notice:  Undefined variable: div_after_save in /var/www/openemr/interface/billing/payment_master.inc.php on line 284
+PHP Notice:  Undefined variable: div_after_save in /var/www/openemr/interface/billing/payment_master.inc.php on line 284
+PHP Notice:  Undefined variable: TypeCode in /var/www/openemr/interface/billing/payment_master.inc.php on line 293
+PHP Notice:  Undefined variable: DepositDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 300
+PHP Notice:  Undefined variable: Description in /var/www/openemr/interface/billing/payment_master.inc.php on line 304
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 305
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 305
+PHP Notice:  Undefined variable: UndistributedAmount in /var/www/openemr/interface/billing/payment_master.inc.php on line 306
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined index: ParentPage in /var/www/openemr/interface/billing/payment_master.inc.php on line 163
+PHP Notice:  Undefined variable: CheckDate in /var/www/openemr/interface/billing/payment_master.inc.php on line 198
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 208
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 214
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: PaymentMethod in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 221
+PHP Notice:  Undefined variable: CheckNumber in /var/www/openemr/interface/billing/payment_master.inc.php on line 229
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 244
+PHP Notice:  Undefined variable: PaymentType in /var/www/openemr/interface/billing/payment_master.inc.php on line 250
+PHP Notice:  Undefined 

@@ -1,0 +1,87 @@
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined variable: commonName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: emailAddress in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: countryName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: stateOrProvinceName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: localityName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationalUnitName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Fatal error:  Uncaught Error: Call to undefined function openssl_pkey_new() in /var/www/openemr/library/create_ssl_certificate.php:81
+Stack trace:
+#0 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(294): create_csr('OpenEMR CA for ', NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(419): create_and_download_certificates()
+#2 {main}
+  thrown in /var/www/openemr/library/create_ssl_certificate.php on line 81
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined variable: commonName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: emailAddress in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: countryName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: stateOrProvinceName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: localityName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationalUnitName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Fatal error:  Uncaught Error: Call to undefined function openssl_pkey_new() in /var/www/openemr/library/create_ssl_certificate.php:81
+Stack trace:
+#0 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(294): create_csr('OpenEMR CA for ', NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(419): create_and_download_certificates()
+#2 {main}
+  thrown in /var/www/openemr/library/create_ssl_certificate.php on line 81
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined variable: commonName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: emailAddress in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: countryName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: stateOrProvinceName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: localityName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationalUnitName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Fatal error:  Uncaught Error: Call to undefined function openssl_pkey_new() in /var/www/openemr/library/create_ssl_certificate.php:81
+Stack trace:
+#0 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(294): create_csr('OpenEMR CA for ', NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(419): create_and_download_certificates()
+#2 {main}
+  thrown in /var/www/openemr/library/create_ssl_certificate.php on line 81
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined variable: commonName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: emailAddress in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: countryName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: stateOrProvinceName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: localityName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationalUnitName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Fatal error:  Uncaught Error: Call to undefined function openssl_pkey_new() in /var/www/openemr/library/create_ssl_certificate.php:81
+Stack trace:
+#0 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(294): create_csr('OpenEMR CA for ', NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(419): create_and_download_certificates()
+#2 {main}
+  thrown in /var/www/openemr/library/create_ssl_certificate.php on line 81
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined variable: commonName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: emailAddress in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: countryName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: stateOrProvinceName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: localityName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationalUnitName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Fatal error:  Uncaught Error: Call to undefined function openssl_pkey_new() in /var/www/openemr/library/create_ssl_certificate.php:81
+Stack trace:
+#0 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(294): create_csr('OpenEMR CA for ', NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(419): create_and_download_certificates()
+#2 {main}
+  thrown in /var/www/openemr/library/create_ssl_certificate.php on line 81
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2627
+PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /var/www/openemr/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2656
+PHP Notice:  Undefined variable: commonName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: emailAddress in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: countryName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: stateOrProvinceName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: localityName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Notice:  Undefined variable: organizationalUnitName in /var/www/openemr/interface/usergroup/ssl_certificates_admin.php on line 294
+PHP Fatal error:  Uncaught Error: Call to undefined function openssl_pkey_new() in /var/www/openemr/library/create_ssl_certificate.php:81
+Stack trace:
+#0 /var/www/openemr/interface/usergroup/ssl_certificates_admin.php(294):
