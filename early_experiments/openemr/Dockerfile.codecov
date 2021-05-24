@@ -1,0 +1,30 @@
+
+FROM webcam/php7/openemr
+MAINTAINER tricke
+
+RUN apt install -y php7.3-gmp  php7.3-dev
+RUN pecl install xdebug
+
+RUN printf "\
+\n \
+zend_extension=/usr/lib/php/20180731/xdebug.so \n \
+xdebug.default_enable = false \n \
+xdebug.coverage_enable = true \n \
+\n \
+" >> /usr/local/lib/php.ini
+
+#RUN mv /etc/supervisord.conf /tmp/tsup && head -n -9 /tmp/tsup > /etc/supervisord.conf
+
+COPY prepost.php /prepost.php
+COPY --chown=wc:wc  run_codecov.py /run_codecov.py
+COPY --chown=wc:wc set_session_login.sh /test/
+COPY supervisord-codecov.conf /etc/supervisord.conf
+
+COPY supervisord-run.conf /etc/supervisord-run.conf
+
+COPY --chown=wc:wc  kill.py /kill.py
+
+CMD /netconf.sh && /usr/bin/supervisord -c /etc/supervisord.conf
+
+
+

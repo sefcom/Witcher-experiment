@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="/WebGoat/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/WebGoat/plugins/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/WebGoat/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/WebGoat/css/animate.css"/>
+</head>
+<body>
+<section id="container">
+    <header id="header">
+        <div class="brand">
+            <a href="/WebGoat/start.mvc" class="logo"><span>Web</span>Goat</a>
+        </div>
+        <div class="toggle-navigation toggle-left">
+        </div>
+        <div class="lessonTitle">
+        </div>
+
+    </header>
+    <section class="main-content-wrapper">
+
+        <section id="main-content">
+            
+            
+            <br/><br/>
+            <form action="/WebGoat/login" method='POST' style="width: 200px;">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Username</label>
+                    <input autofocus="dummy_for_thymeleaf_parser" type="text" class="form-control"
+                           id="exampleInputEmail1" placeholder="Username" name='username' />
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                           name='password' />
+                </div>
+                <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+                <div class="text-center"><a href="/WebGoat/registration">Register new user</a></div>
+            </form>
+            <br/><br/>
+        </section>
+    </section>
+</section>
+
+
+</body>
+</html>

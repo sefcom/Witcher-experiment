@@ -1,0 +1,45 @@
+{
+  "testname": "openemr",
+  "afl_inst_interpreter_binary": "/php/php-cgi-mysqli-afl",
+  "wc_inst_interpreter_binary": "/php/php-cgi-mysqli-wc",
+  "base_url": "http://localhost/",
+  "afl_path": "/afl",
+  "ld_library_path":"/wclibs",
+  "afl_preload":"/wclibs/libcgiwrapper.so",
+  "cores": "10",
+  "timeout" : "30",
+  "wc_rerun_cnt": "1",
+  "script_skip_list": ["forms_admin.php", "demographics_print.php", "logout.php", "group_admin.php", "billing_report.php", "super/edit_list.php", "super/rules/index.php", "usergroup_admin.php"],
+  "script_random_order": true 
+  "script_start_index": 10,
+  "script_end_index": 20,
+  "script_random_each_refuzz": true,
+  "request_crawler": {
+    "form_url" : "http://localhost/interface/login/login.php?site=default",
+    "usernameSelector": "#authUser",
+    "usernameValue": "admin",
+    "passwordSelector": "#clearPass",
+    "passwordValue": "password",
+    "submitType": "enter",
+    "positiveLoginMessage": "title=\"Current user\"",
+    "method": "POST",
+    "form_selector": ".form-login",
+    "form_submit_selector": "input[type=submit]",
+    "ignoreValues": [],
+    "urlUniqueIfValueUnique": []
+  },
+
+  "direct":{
+    "url": "http://localhost/interface/main/main_screen.php",
+       "postData": "new_login_session_management=1&authProvider=TroubleMaker&authUser=admin&clearPass=password&languageChoice=1",
+    "getData": "auth=login&site=default",
+    "positiveHeaders": [{"Location":"/interface/main/tabs/main.php"}],
+    "positiveBody": "",
+    "method": "POST",
+    "cgiBinary": "/php/php-cgi-mysqli-wc",
+    "loginSessionCookie" : "OpenEMR",
+    "mandatoryGet": "",
+    "extra_authorized_requests": [{"url": "http://localhost/interface/patient_file/summary/demographics.php?set_pid=2"}]
+  }
+
+}

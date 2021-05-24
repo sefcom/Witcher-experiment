@@ -1,0 +1,13 @@
+openemr/Documentation
+openemr/contrib/forms
+openemr/.git
+openemr/contrib/icd10
+openemr/contrib/icd9
+openemr/library/html2pdf/vendor
+openemr/vendor
+openemr/public
+openemr/images
+openemr/patients/images
+openemr/phpfhir/vendor
+openemr/portal/images
+openemr/portal/sign/assets

@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "datatables.net@1.10.13",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "datatables.net@1.10.13",
+  "_id": "datatables.net@1.10.13",
+  "_inBundle": false,
+  "_integrity": "sha1-asWEum/C3/EZXlxm0+OwUaS1K5Y=",
+  "_location": "/datatables.net",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net@1.10.13",
+    "name": "datatables.net",
+    "escapedName": "datatables.net",
+    "rawSpec": "1.10.13",
+    "saveSpec": null,
+    "fetchSpec": "1.10.13"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-bs",
+    "/datatables.net-colreorder",
+    "/datatables.net-colreorder-dt",
+    "/datatables.net-dt",
+    "/datatables.net-jqui",
+    "/datatables.net-scroller"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net/-/datatables.net-1.10.13.tgz",
+  "_spec": "1.10.13",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "description": "DataTables for jQuery ",
+  "files": [
+    "js/jquery.dataTables.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "filter",
+    "sort",
+    "DataTables",
+    "jQuery",
+    "table",
+    "DataTables"
+  ],
+  "license": "MIT",
+  "main": "./js/jquery.dataTables.js",
+  "name": "datatables.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables.git"
+  },
+  "version": "1.10.13"
+}

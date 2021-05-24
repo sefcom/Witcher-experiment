@@ -1,0 +1,12 @@
+{
+  "url" : "http://localhost/interface/login/login.php?site=default",
+  "urlold": "http://localhost/interface/main/main_screen.php?auth=login&site=default",
+  "usernameSelector": "#authUser",
+  "usernameValue": "admin",
+  "passwordSelector": "#clearPass",
+  "passwordValue": "password",
+  "submitType": "enter",
+  "positiveLoginMessage": "title=\"Current user\"",
+  "post_data": "new_login_session_management=1&authProvider=Default&authUser=admin&clearPass=password&languageChoice=1",
+  "method": "POST"
+}

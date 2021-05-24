@@ -1,0 +1,22 @@
+{
+  "requestsFound": {
+    "GET http://172.17.0.2//admin ": {
+      "_id": 1,
+      "_urlstr": "http://172.17.0.2//admin",
+      "_url": "http://172.17.0.2//admin",
+      "_resourceType": "initial",
+      "_method": "GET",
+      "_postData": "",
+      "_headers": {},
+      "attempts": 1,
+      "processed": 1,
+      "from": "",
+      "key": "GET http://172.17.0.2//admin ",
+      "response_status": 404,
+      "response_content-type": "text/html; charset=iso-8859-1"
+    }
+  },
+  "inputSet": [
+    "feed=me",
+  ]
+}

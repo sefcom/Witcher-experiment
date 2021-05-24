@@ -1,0 +1,32 @@
+<a href="controller.php?practice_settings&{$TOP_ACTION}insurance_company&action=edit" onclick="top.restoreSession()"
+   class="btn btn-default btn-add">
+    {xl t='Add a Company'|escape:'html'}</a>
+    <br><br>
+<table class="table table-responsive table-striped">
+    <thead>
+        <tr>
+            <th>{xl t='Name'|escape:'html'}</th>
+            <th>{xl t='City, State'|escape:'html'}</th>
+            <th>{xl t='Default X12 Partner'|escape:'html'}</th>
+            <th>{xl t='Deactivated'|escape:'html'}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {foreach from=$icompanies item=insurancecompany}
+        <tr>
+            <td>
+                <a href="{$CURRENT_ACTION}action=edit&id={$insurancecompany->id|escape:'html'}" onclick="top.restoreSession()">
+                    {$insurancecompany->name|escape:'html'}
+                </a>
+            </td>
+            <td>{$insurancecompany->address->city|escape:'html'} {$insurancecompany->address->state|upper|escape:'html'}&nbsp;</td>
+            <td>{$insurancecompany->get_x12_default_partner_name()|escape:'html'}&nbsp;</td>
+            <td>{if $insurancecompany->get_inactive() eq 1}{xl t='Yes'|escape:'html'}{/if}&nbsp;</td>
+        </tr>
+        {foreachelse}
+        <tr>
+            <td colspan="4">{xl t='No Insurance Companies Found'|escape:'html'}</td>
+        </tr>
+        {/foreach}
+    </tbody>
+</table>

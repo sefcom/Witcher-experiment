@@ -1,0 +1,47 @@
+{
+  "_args": [
+    [
+      "github:EastDesire/jscolor",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "github:EastDesire/jscolor",
+  "_id": "jscolor@github:EastDesire/jscolor#0fb8b8e33569b0edcb5bafbae124f5d440146897",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/jscolor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:EastDesire/jscolor",
+    "rawSpec": "github:EastDesire/jscolor",
+    "saveSpec": "github:EastDesire/jscolor",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:EastDesire/jscolor#0fb8b8e33569b0edcb5bafbae124f5d440146897",
+  "_spec": "github:EastDesire/jscolor",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "EastDesire"
+  },
+  "bugs": {
+    "url": "https://github.com/EastDesire/jscolor/issues"
+  },
+  "description": "Web Color Picker that aims to be super easy both for developers and end users. http://jscolor.com",
+  "homepage": "https://github.com/EastDesire/jscolor#readme",
+  "license": "GPLv3",
+  "main": "jscolor.js",
+  "name": "jscolor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EastDesire/jscolor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.4"
+}

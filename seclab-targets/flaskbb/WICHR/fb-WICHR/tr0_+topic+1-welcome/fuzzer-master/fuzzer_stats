@@ -1,0 +1,34 @@
+start_time        : 1619744673
+last_update       : 1619745877
+stage_name        : http queue comb
+fuzzer_pid        : 2306354
+cycles_done       : 0
+execs_done        : 33212
+execs_per_sec     : 25.10
+paths_total       : 211
+paths_favored     : 14
+paths_found       : 210
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 18
+pending_favs      : 14
+pending_total     : 210
+variable_paths    : 206
+stability         : 46.70%
+bitmap_cvg        : 33.60%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1619745875
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 33212
+exec_timeout      : 5000
+afl_banner        : fuzzer-master
+afl_version       : 2.52b
+target_mode       : default
+command_line      : /afl/afl-fuzz -i /p/Witcher/python/tests/flaskbb/WICHR/work/initial_seeds -o /p/Witcher/python/tests/flaskbb/WICHR/work -m 8G -M fuzzer-master -x /p/Witcher/python/tests/flaskbb/WICHR/work/dict.txt -t 5000+ -- /httpreqr --url http://172.17.0.14:5000/topic/1-welcome#pid1
+execs_http        : 14223
+paths_havoc       : 33
+paths_split       : 0
+paths_http_qc     : 45
+paths_http_dict   : 11

@@ -1,0 +1,3 @@
+
+curl -v -L /tmp/cookies.txt -s -k -X $'GET' "http://10.90.90.90:9999/interface/patient_file/summary/demographics.php?set_pid=2"
+

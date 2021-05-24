@@ -1,0 +1,9 @@
+#! /bin/bash
+echo "running curl"
+if [[ -z ${1} ]];then
+    echo "Error missing target location ip:port"
+    exit 190
+fi 
+/usr/bin/curl -v -s -L -k -b /tmp/cookies.txt -X $'POST' -H $'Content-Length: 107' --data-binary $'new_login_session_management=1&authProvider=TroubleMaker&authUser=admin&clearPass=password&languageChoice=1' "http://${1}/interface/main/main_screen.php?auth=login&site=default"
+
+

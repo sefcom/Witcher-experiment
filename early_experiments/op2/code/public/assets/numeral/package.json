@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "numeral@1.5.3",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "numeral@1.5.3",
+  "_id": "numeral@1.5.3",
+  "_inBundle": false,
+  "_integrity": "sha1-pMPrpoI5WAUJ+BgmfHckO85D/2I=",
+  "_location": "/numeral",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "numeral@1.5.3",
+    "name": "numeral",
+    "escapedName": "numeral",
+    "rawSpec": "1.5.3",
+    "saveSpec": null,
+    "fetchSpec": "1.5.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/numeral/-/numeral-1.5.3.tgz",
+  "_spec": "1.5.3",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "Adam Draper",
+    "email": "adamwdraper@gmail.com",
+    "url": "http://github.com/adamwdraper"
+  },
+  "bugs": {
+    "url": "https://github.com/adamwdraper/Numeral-js/issues"
+  },
+  "description": "Format and manipulate numbers.",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-uglify": "latest",
+    "uglify-js": "latest"
+  },
+  "ender": "./ender.js",
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "http://numeraljs.com",
+  "keywords": [
+    "numeral",
+    "number",
+    "format",
+    "time",
+    "money",
+    "percentage"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./numeral.js",
+  "name": "numeral",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamwdraper/Numeral-js.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "version": "1.5.3"
+}

@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "datatables.net-jqui@1.10.13",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "datatables.net-jqui@1.10.13",
+  "_id": "datatables.net-jqui@1.10.13",
+  "_inBundle": false,
+  "_integrity": "sha1-iEh6Gu5MPM8vbHpKOKcIUAWwaJk=",
+  "_location": "/datatables.net-jqui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-jqui@1.10.13",
+    "name": "datatables.net-jqui",
+    "escapedName": "datatables.net-jqui",
+    "rawSpec": "1.10.13",
+    "saveSpec": null,
+    "fetchSpec": "1.10.13"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-scroller-jqui"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-jqui/-/datatables.net-jqui-1.10.13.tgz",
+  "_spec": "1.10.13",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net": ">=1.10.9",
+    "jquery": ">=1.7"
+  },
+  "description": "DataTables for jQuery with styling for [jQuery UI](http://jqueryui.com/)",
+  "files": [
+    "js/dataTables.jqueryui.js",
+    "css/dataTables.jqueryui.css"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "filter",
+    "sort",
+    "DataTables",
+    "jQuery",
+    "table",
+    "jQuery UI"
+  ],
+  "license": "MIT",
+  "main": "js/dataTables.jqueryui.js",
+  "name": "datatables.net-jqui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-jQueryUI.git"
+  },
+  "style": "css/dataTables.jqueryui.css",
+  "version": "1.10.13"
+}

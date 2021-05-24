@@ -1,0 +1,41 @@
+[0;36mafl-fuzz [1;97m2.52b[0m by <lcamtuf@google.com>
+[1;92m[+] [0mLooks like we're not running on a tty, so I'll be a bit less verbose.[0m
+[1;92m[+] [0mYou have 128 CPU cores and 14 runnable tasks (utilization: 11%).[0m
+[1;92m[+] [0mTry parallel jobs - see docs/parallel_fuzzing.txt.[0m
+[1;94m[*] [0mChecking CPU core loadout...[0m
+[1;92m[+] [0mFound a free CPU core, binding to #0.[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;94m[*] [0mChecking CPU scaling governor...[0m
+[1;94m[*] [0mUsing SHMID of '5'...[0m
+shm_id=5 , tb[0]=6  0x7fe8f0950000
+[1;94m[*] [0mSetting up output directories...[0m
+[1;94m[*] [0mScanning './WICHR/work/initial_seeds'...[0m
+[1;92m[+] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mLoading extra dictionary from './WICHR/work/dict.txt' (level 0)...[0m
+[1;92m[+] [0mLoaded 322 extra tokens, size range 3 B to 122 B.[0m
+[1;93m[!] [1;97mWARNING: [0mSome tokens are relatively large (122 B) - consider trimming.[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,orig:seed-0'...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+here b4 1864
+here after 1864 1865 
+fs status= 0 
+[1;91m[-] [0mHmm, looks like the target binary terminated before we could complete a
+    handshake with the injected code. There are two probable explanations:
+
+    - The current memory limit (8.00 GB) is too restrictive, causing an OOM
+      fault in the dynamic linker. This can be fixed with the -m option. A
+      simple way to confirm the diagnosis may be:
+
+      ( ulimit -Sv $[8191 << 10]; /path/to/fuzzed_app )
+
+      Tip: you can use http://jwilk.net/software/recidivm to quickly
+      estimate the required amount of virtual memory for the binary.
+
+    - Less likely, there is a horrible bug in the fuzzer. If other options
+      fail, poke <lcamtuf@coredump.cx> for troubleshooting tips.
+)B[?25h[0m[1;91m
+[-] PROGRAM ABORT : [1;97mFork server handshake failed[1;91m
+         Location : [0minit_forkserver(), afl-fuzz.c:2375
+

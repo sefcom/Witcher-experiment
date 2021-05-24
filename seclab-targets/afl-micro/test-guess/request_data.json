@@ -1,0 +1,22 @@
+{
+  "requestsFound": {
+    "GET http://172.17.0.10/test-guess.php ": {
+      "_id": 1,
+      "_urlstr": "http://172.17.0.10/test-guess.php?feed=fun&seed=mun&too=me",
+      "_url": "http://172.17.0.10/test-guess.php?feed=fun&seed=mun&too=me",
+      "_resourceType": "initial",
+      "_method": "GET",
+      "_postData": "",
+      "_headers": {},
+      "attempts": 0,
+      "processed": 0,
+      "from": "",
+      "key": "GET http://172.17.0.10/test-guess.php ",
+      "response_status": 200,
+      "response_content-type": "text/html; charset=iso-8859-1"
+    }
+  },
+  "inputSet": [
+    "feed=me"
+  ]
+}

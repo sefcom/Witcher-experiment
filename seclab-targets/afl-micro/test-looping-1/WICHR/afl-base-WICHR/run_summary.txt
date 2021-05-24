@@ -1,0 +1,2 @@
+Date	Time	Binary	Target	Elapsed	Cores	Execs	Exec/sec	Cycles	Paths	Crashes	Reason	TestVer
+2021-05-20	17:26:39	/afl-php-cgi	/app/test-looping-1.php  	14401	1	1373642	177	5360	1	0		

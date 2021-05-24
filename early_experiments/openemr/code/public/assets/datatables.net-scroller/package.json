@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "datatables.net-scroller@1.4.2",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "datatables.net-scroller@1.4.2",
+  "_id": "datatables.net-scroller@1.4.2",
+  "_inBundle": false,
+  "_integrity": "sha1-cK/eDfOI2+THU3+RX3VllmSNf/E=",
+  "_location": "/datatables.net-scroller",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-scroller@1.4.2",
+    "name": "datatables.net-scroller",
+    "escapedName": "datatables.net-scroller",
+    "rawSpec": "1.4.2",
+    "saveSpec": null,
+    "fetchSpec": "1.4.2"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-scroller-jqui"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-scroller/-/datatables.net-scroller-1.4.2.tgz",
+  "_spec": "1.4.2",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net": ">=1.10.9",
+    "jquery": ">=1.7"
+  },
+  "description": "Scroller for DataTables ",
+  "files": [
+    "js/dataTables.scroller.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "virtual scrolling",
+    "DataTables",
+    "jQuery",
+    "table",
+    "DataTables"
+  ],
+  "license": "MIT",
+  "main": "./js/dataTables.scroller.js",
+  "name": "datatables.net-scroller",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-Scroller.git"
+  },
+  "version": "1.4.2"
+}

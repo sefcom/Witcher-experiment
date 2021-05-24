@@ -1,0 +1,29 @@
+{
+  "interpreter_binary": "/p/webcam/php/php-7-mysqli/sapi/cgi/php-cgi",
+  "request_crawler": {
+    "form_url": "http://localhost/hms/user-login.php",
+    "form_selector": ".form-login",
+    "form_submit_selector": "input[type=submit]",
+    "usernameSelector": "[name=\"username\"]",
+    "usernameValue": "patient@trickel.com",
+    "passwordSelector": "[name=\"password\"]",
+    "passwordValue": "Test@12345",
+    "submitType": "enter",
+    "positiveLoginMessage": "User  | Dashboard",
+    "method":"POST",
+    "ignoreValues": [],
+    "urlUniqueIfValueUnique": []
+  },
+
+  "direct":{
+    "url": "/app/hms/user-login.php",
+    "postData": "username=test@gmail.com&password=Test%40123&submit=&submit=",
+    "getData": "none=none",
+    "positiveMessage": "dashboard.php",
+    "method": "POST",
+    "cgiBinary": "/p/webcam/php/php-7-mysqli/sapi/cgi/php-cgi",
+    "loginSessionCookie" : "PHPSESSID",
+    "mandatoryGet": ""
+  }
+
+}

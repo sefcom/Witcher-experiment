@@ -1,0 +1,18 @@
+
+FROM webcam/php7/openemr
+MAINTAINER tricke
+
+RUN pecl install xdebug
+
+RUN echo -e "\
+
+zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20180731/xdebug.so
+xdebug.default_enable = false
+xdebug.coverage_enable = true
+
+" >> /usr/local/lib/php.ini
+
+RUN mv /etc/supervisord.conf /tmp/tsup && head -n -9 /tmp/tsup > /etc/supervisord.conf
+
+CMD /netconf.sh && /usr/bin/supervisord
+

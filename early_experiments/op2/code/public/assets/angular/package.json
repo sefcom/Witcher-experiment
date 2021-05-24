@@ -1,0 +1,57 @@
+{
+  "_args": [
+    [
+      "angular@1.5.8",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "angular@1.5.8",
+  "_id": "angular@1.5.8",
+  "_inBundle": false,
+  "_integrity": "sha1-klpTkrjCEtCVctxEbbfgEmTglMs=",
+  "_location": "/angular",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular@1.5.8",
+    "name": "angular",
+    "escapedName": "angular",
+    "rawSpec": "1.5.8",
+    "saveSpec": null,
+    "fetchSpec": "1.5.8"
+  },
+  "_requiredBy": [
+    "/",
+    "/checklist-model"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular/-/angular-1.5.8.tgz",
+  "_spec": "1.5.8",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "description": "HTML enhanced for web apps",
+  "homepage": "http://angularjs.org",
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "angular",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.8"
+}

@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      "konva@1.6.8",
+      "/p/webcam/php/tests/openemr/currentCODE"
+    ]
+  ],
+  "_from": "konva@1.6.8",
+  "_id": "konva@1.6.8",
+  "_inBundle": false,
+  "_integrity": "sha512-7AhbRe+cQLB4iYopOrcER4gbTXU6aAeHzAmuRE3891HY1v7mjdhlmyX60AVFoOmkrx8JXPwqxGRJRRfq1oY5oA==",
+  "_location": "/konva",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "konva@1.6.8",
+    "name": "konva",
+    "escapedName": "konva",
+    "rawSpec": "1.6.8",
+    "saveSpec": null,
+    "fetchSpec": "1.6.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/konva/-/konva-1.6.8.tgz",
+  "_spec": "1.6.8",
+  "_where": "/p/webcam/php/tests/openemr/currentCODE",
+  "author": {
+    "name": "Anton Lavrenov"
+  },
+  "browser": {
+    "canvas": false,
+    "jsdom": false
+  },
+  "bugs": {
+    "url": "https://github.com/konvajs/konva/issues"
+  },
+  "description": "![Konva logo](https://raw.githubusercontent.com/konvajs/konvajs.github.io/master/apple-touch-icon-180x180.png)",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jscpd": "0.0.7",
+    "gulp-jsdoc": "^0.1.5",
+    "gulp-mocha-phantomjs": "^0.12.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "mocha": "3.3.0",
+    "prettier": "^1.2.2"
+  },
+  "files": [
+    "README.md",
+    "konva.js",
+    "konva.min.js",
+    "src",
+    "konva.d.ts"
+  ],
+  "homepage": "http://konvajs.github.io/",
+  "keywords": [
+    "canvas",
+    "animations",
+    "graphic",
+    "html5"
+  ],
+  "license": "MIT",
+  "main": "konva.js",
+  "name": "konva",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/konvajs/konva.git"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "full-build": "gulp lint test build",
+    "lint": "gulp lint",
+    "prettier": "prettier --write \"src/**/*.js\" \"test/**/*.js\" --single-quote",
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "typings": "./konva.d.ts",
+  "version": "1.6.8"
+}
