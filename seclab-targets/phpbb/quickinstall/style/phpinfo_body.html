@@ -1,0 +1,10 @@
+{% include 'overall_header.html' %}
+
+<h1>{{ lang('PHPINFO_TITLE') }}</h1>
+{{ lang('PHPINFO_EXPLAIN') }}
+
+<div class="table-responsive mt-3">
+	{{ PHPINFO }}
+</div>
+
+{% include 'overall_footer.html' %}

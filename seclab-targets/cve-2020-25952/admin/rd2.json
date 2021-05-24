@@ -1,0 +1,29 @@
+{
+  "requestsFound": {
+    "GET http://172.17.0.8//admin ": {
+      "_id": 1,
+      "_urlstr": "http://172.17.0.8//admin",
+      "_url": "http://172.17.0.8//admin",
+      "_resourceType": "initial",
+      "_method": "GET",
+      "_postData": "",
+      "_headers": {},
+      "attempts": 1,
+      "processed": 0,
+      "from": ""
+    },
+    "GET http://172.17.0.8/ ": {
+      "_id": 2,
+      "_urlstr": "http://172.17.0.8/",
+      "_url": "http://172.17.0.8/",
+      "_resourceType": "initial",
+      "_method": "GET",
+      "_postData": "",
+      "_headers": {},
+      "attempts": 0,
+      "processed": 0,
+      "from": ""
+    }
+  },
+  "inputSet": []
+}

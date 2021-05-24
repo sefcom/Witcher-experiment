@@ -1,0 +1,70 @@
+[0;36mafl-fuzz [1;97m2.52b[0m by <lcamtuf@google.com>
+[1;92m[+] [0mLooks like we're not running on a tty, so I'll be a bit less verbose.[0m
+[1;92m[+] [0mYou have 128 CPU cores and 5 runnable tasks (utilization: 4%).[0m
+[1;92m[+] [0mTry parallel jobs - see docs/parallel_fuzzing.txt.[0m
+[1;93m[!] [1;97mWARNING: [0mSetting binding to 12[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;94m[*] [0mChecking CPU scaling governor...[0m
+[1;94m[*] [0mUsing SHMID of '5'...[0m
+shm_id=5 , tb[0]=6  0x7f99198eb000
+[1;94m[*] [0mSetting up output directories...[0m
+[1;94m[*] [0mScanning './WICHR/work/initial_seeds'...[0m
+[1;92m[+] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mLoading extra dictionary from './WICHR/work/dict.txt' (level 0)...[0m
+[1;92m[+] [0mLoaded 364 extra tokens, size range 2 B to 64 B.[0m
+[1;93m[!] [1;97mWARNING: [0mSome tokens are relatively large (64 B) - consider trimming.[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,orig:seed-0'...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+here b4 110880
+here after 110880 110884 
+fs status= 4 [AFL] Forkserver up
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;90m    len = 39, map size = 2512, exec speed = 451121 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000001,orig:seed-1'...[0m
+[1;90m    len = 49, map size = 2223, exec speed = 366494 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000002,orig:seed-10'...[0m
+[1;90m    len = 49, map size = 2223, exec speed = 364648 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000003,orig:seed-2'...[0m
+[1;90m    len = 39, map size = 2500, exec speed = 449727 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000004,orig:seed-3'...[0m
+[1;90m    len = 39, map size = 2509, exec speed = 455683 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000005,orig:seed-4'...[0m
+[1;90m    len = 49, map size = 2223, exec speed = 367506 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000006,orig:seed-5'...[0m
+[1;90m    len = 39, map size = 2506, exec speed = 453261 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000007,orig:seed-6'...[0m
+[1;90m    len = 49, map size = 2223, exec speed = 358659 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000008,orig:seed-7'...[0m
+[1;90m    len = 39, map size = 2507, exec speed = 455381 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000009,orig:seed-8'...[0m
+[1;90m    len = 65, map size = 2223, exec speed = 369469 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000010,orig:seed-9'...[0m
+[1;90m    len = 39, map size = 2501, exec speed = 442710 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;92m[+] [0mAll test cases processed.[0m
+
+[1;93m[!] [1;97mWARNING: [0m[1;91mThe target binary is pretty slow! See docs/perf_tips.txt.[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases look useless. Consider using a smaller set.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m6 favored, 6 variable, 11 total
+[1;90m       Bitmap range : [0m2223 to 2512 bits (average: 2377.27 bits)
+[1;90m        Exec timing : [0m358k to 455k us (average: 429k us)
+[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #0 (11 total, 0 uniq crashes found)...[0m

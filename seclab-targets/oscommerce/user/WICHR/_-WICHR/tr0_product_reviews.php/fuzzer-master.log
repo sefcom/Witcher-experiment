@@ -1,0 +1,94 @@
+[0;36mafl-fuzz [1;97m2.52b[0m by <lcamtuf@google.com>
+[1;92m[+] [0mLooks like we're not running on a tty, so I'll be a bit less verbose.[0m
+[1;92m[+] [0mYou have 128 CPU cores and 15 runnable tasks (utilization: 12%).[0m
+[1;92m[+] [0mTry parallel jobs - see docs/parallel_fuzzing.txt.[0m
+[1;93m[!] [1;97mWARNING: [0mSetting binding to 28[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;94m[*] [0mChecking CPU scaling governor...[0m
+[1;94m[*] [0mUsing SHMID of '23'...[0m
+shm_id=23 , tb[0]=6  0x7fc4b9589000
+[1;94m[*] [0mSetting up output directories...[0m
+[1;94m[*] [0mScanning './WICHR/work/initial_seeds'...[0m
+[1;92m[+] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mLoading extra dictionary from './WICHR/work/dict.txt' (level 0)...[0m
+[1;92m[+] [0mLoaded 294 extra tokens, size range 2 B to 42 B.[0m
+[1;93m[!] [1;97mWARNING: [0mSome tokens are relatively large (42 B) - consider trimming.[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,orig:seed-0'...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+here b4 123547
+here after 123547 123548 
+fs status= 4 [AFL] Forkserver up
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;90m    len = 17, map size = 1307, exec speed = 126525 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000001,orig:seed-1'...[0m
+[1;90m    len = 16, map size = 1318, exec speed = 129757 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000002,orig:seed-10'...[0m
+[1;90m    len = 48, map size = 1298, exec speed = 120672 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000003,orig:seed-11'...[0m
+[1;90m    len = 48, map size = 1298, exec speed = 121045 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000004,orig:seed-12'...[0m
+[1;90m    len = 50, map size = 967, exec speed = 73671 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000005,orig:seed-13'...[0m
+[1;90m    len = 50, map size = 966, exec speed = 67260 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000006,orig:seed-14'...[0m
+[1;90m    len = 45, map size = 968, exec speed = 67511 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000007,orig:seed-15'...[0m
+[1;90m    len = 45, map size = 966, exec speed = 438054 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000008,orig:seed-16'...[0m
+[1;90m    len = 39, map size = 1302, exec speed = 192164 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000009,orig:seed-17'...[0m
+[1;90m    len = 39, map size = 1302, exec speed = 121010 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000010,orig:seed-18'...[0m
+[1;90m    len = 41, map size = 959, exec speed = 67966 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000011,orig:seed-19'...[0m
+[1;90m    len = 42, map size = 958, exec speed = 67439 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000012,orig:seed-2'...[0m
+[1;90m    len = 35, map size = 1296, exec speed = 120926 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000013,orig:seed-3'...[0m
+[1;90m    len = 35, map size = 1296, exec speed = 121402 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000014,orig:seed-4'...[0m
+[1;90m    len = 30, map size = 1309, exec speed = 121850 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000015,orig:seed-5'...[0m
+[1;90m    len = 30, map size = 1320, exec speed = 125423 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000016,orig:seed-6'...[0m
+[1;90m    len = 32, map size = 959, exec speed = 67424 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000017,orig:seed-7'...[0m
+[1;90m    len = 26, map size = 1299, exec speed = 121088 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000018,orig:seed-8'...[0m
+[1;90m    len = 27, map size = 1305, exec speed = 127146 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000019,orig:seed-9'...[0m
+[1;90m    len = 31, map size = 957, exec speed = 68713 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;92m[+] [0mAll test cases processed.[0m
+
+[1;93m[!] [1;97mWARNING: [0m[1;91mThe target binary is pretty slow! See docs/perf_tips.txt.[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases look useless. Consider using a smaller set.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m4 favored, 14 variable, 20 total
+[1;90m       Bitmap range : [0m957 to 1320 bits (average: 1167.50 bits)
+[1;90m        Exec timing : [0m67.3k to 438k us (average: 125k us)
+[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #1 (20 total, 0 uniq crashes found)...[0m
