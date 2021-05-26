@@ -1,1 +1,0 @@
-error_no_default_language_defined = Error: There is currently no default language set. Please set one at: Administration Tool->Localization->Languages

@@ -1,0 +1,2 @@
+Date	Time	Binary	Target	Elapsed	Cores	Execs	Exec/sec	Cycles	Paths	Crashes	Reason	TestVer
+2021-05-26	23:17:36	/httpreqr	http://172.17.0.5:18080/WebGoatmailto:webgoat@owasp.org?&Subject=Webgoat%20feedback	120	1	0	0	0	1	0		

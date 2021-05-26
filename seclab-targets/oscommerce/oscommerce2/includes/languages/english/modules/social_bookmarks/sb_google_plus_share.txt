@@ -1,3 +1,0 @@
-module_social_bookmarks_google_plus_share_title = Google+ Share
-module_social_bookmarks_google_plus_share_description = Share products on Google+.
-module_social_bookmarks_google_plus_share_public_title = Share on Google+

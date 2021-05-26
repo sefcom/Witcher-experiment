@@ -1,0 +1,46 @@
+{
+  "testname": "_",
+  "afl_inst_interpreter_binary": "/usr/local/bin/php-cgi",
+  "wc_inst_interpreter_binary": "/usr/local/bin/php-cgi",
+  "base_url": "http://127.0.0.1:@@PORT_INCREMENT@@/",
+  "base_url_path": "/boards/test",
+  "afl_path": "/afl",
+  "ld_library_path":"/wclibs",
+  "afl_preload":"/wclibs/lib_db_fault_escalator.so",
+  "number_of_trials": 1,
+  "number_of_refuzzes": 1,
+  "timeout" : 1200,
+  "run_timeout": 5000,
+  "server_base_port": 80,
+  "script_skip_list": [],
+  "script_random_order": 0,
+  "cores": 1,
+  "binary_options":"",
+  "request_crawler": {
+    "form_url" : "http://172.17.0.5/boards/test/ucp.php?mode=login&redirect=index.php",
+    "usernameSelector": "[name=username]",
+    "usernameValue": "admin",
+    "passwordSelector": "[name=password]",
+    "passwordValue": "admin",
+    "submitType": "enter",
+    "positiveLoginMessage": "Last visit was",
+    "method": "POST",
+    "form_selector": "",
+    "form_submit_selector": "",
+    "ignoreValues": [],
+    "urlUniqueIfValueUnique": []
+  },
+
+  "direct":{
+    "url": "/app/boards/test/ucp.php",
+       "postData": "username=admin&password=admin&redirect=.%2Fucp.php%3Fmode%3Dlogin%26redirect%3Dindex.php&creation_time=1621199158&form_token=0cc81e6be3ca5956fa43d37137718089647c1a4c&sid=26c91cc70341d7d0b4df7622bf5a7c86&redirect=index.php&login=Login",
+    "getData": "mode=login",
+    "method": "POST",
+    "positiveHeaders":{"Location":"boards/test/index.php"},
+    "cgiBinary": "/usr/local/bin/php-cgi",
+    "loginSessionCookie" : "",
+    "mandatoryGet": "",
+    "extra_authorized_requests": [{"url": ""}]
+  }
+
+}

@@ -1,3 +1,0 @@
-module_admin_dashboard_customers_title = Customers
-module_admin_dashboard_customers_description = Show the newest customers
-module_admin_dashboard_customers_date = Date

@@ -1,3 +1,0 @@
-module_shipping_item_text_title = Per Item
-module_shipping_item_text_description = Per Item
-module_shipping_item_text_way = 

@@ -1,3 +1,0 @@
-module_boxes_manufacturers_title = Manufacturers
-module_boxes_manufacturers_description = Show a list of manufacturers
-module_boxes_manufacturers_box_title = Manufacturers

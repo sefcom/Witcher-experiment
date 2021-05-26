@@ -1,9 +1,0 @@
-Date	Time	Binary	Target	Elapsed	Cores	Execs	Exec/sec	Cycles	Paths	Crashes	Reason	TestVer
-2021-05-15	13:23:14	/usr/local/bin/php-cgi	/app/das/adminlogin.php  	1200	1	283923	6	68	6	0		
-2021-05-15	13:43:32	/usr/local/bin/php-cgi	/app/das/getuser.php     	1200	1	299438	263	577	2	1	Crash Found.	
-2021-05-15	14:03:50	/usr/local/bin/php-cgi	/app/das/                	1200	1	208559	7	32	10	0		
-2021-05-15	14:24:08	/usr/local/bin/php-cgi	/app/das/doctor/logout.php	1200	1	373533	321	718	2	0		
-2021-05-15	14:44:26	/usr/local/bin/php-cgi	/app/das/index.php       	1200	1	275783	264	73	11	0		
-2021-05-15	15:04:52	/usr/local/bin/php-cgi	/app/das/doctor/doctorprofile.php	1200	1	246351	245	107	10	1	Crash Found.	
-2021-05-15	15:25:12	/usr/local/bin/php-cgi	/app/das/doctor/addschedule.php	1199	1	248162	209	140	4	0		
-2021-05-15	15:45:34	/usr/local/bin/php-cgi	/app/das/doctor/patientlist.php	1200	1	255970	234	1985	1	0		

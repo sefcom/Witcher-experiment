@@ -1,0 +1,48 @@
+{
+  "testname": "fb",
+  "afl_inst_interpreter_binary": "/httpreqr",
+  "wc_inst_interpreter_binary": "/httpreqr",
+  "base_url": "http://172.17.0.14:@@PORT_INCREMENT@@/",
+  "afl_path": "/afl",
+  "ld_library_path":"/wclibs",
+  "afl_preload":"/wclibs/lib_db_fault_escalator.so",
+  "number_of_trials": 1,
+  "number_of_refuzzes": 1,
+  "timeout" : 1200,
+  "run_timeout": 5000,
+  "server_cmd": ["/run.sh", "@@PORT_INCREMENT@@"],
+  "server_base_port": 5000,
+  "server_up_msg": "Running on http",
+  "script_skip_list": [],
+  "script_random_order": 0,
+  "cores": 1,
+  "binary_options":"--url @@url@@",
+  "request_crawler": {
+    "form_url" : "http://172.17.0.14:5000/auth/login",
+    "usernameSelector": "[name=login]",
+    "usernameValue": "admin",
+    "passwordSelector": "[name=password]",
+    "passwordValue": "admin",
+    "submitType": "enter",
+    "positiveLoginMessage": "Memberlist",
+    "method": "POST",
+    "form_selector": "",
+    "form_submit_selector": "",
+    "ignoreValues": [],
+    "urlUniqueIfValueUnique": []
+  },
+
+  "direct":{
+    "url": "http://172.17.0.14:5000/auth/login",
+       "postData": "recaptcha=&login=admin&password=admin&submit=Login",
+    "getData": "",
+    "method": "POST",
+    "positiveHeaders":{},
+    "positiveBody": "You should be redirected",
+    "cgiBinary": "/usr/local/bin/php-cgi",
+    "loginSessionCookie" : "session",
+    "mandatoryGet": "",
+    "extra_authorized_requests": [{"url": ""}]
+  }
+
+}

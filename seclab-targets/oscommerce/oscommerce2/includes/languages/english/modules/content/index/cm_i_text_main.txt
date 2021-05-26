@@ -1,3 +1,0 @@
-module_content_text_main_title = Main Text
-module_content_text_main_description = Shows the "Text" module on your Index page.
-module_content_text_main_text = 

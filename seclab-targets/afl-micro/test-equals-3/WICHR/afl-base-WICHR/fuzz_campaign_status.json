@@ -1,1 +1,0 @@
-[{"trial_start": "2021_05_20_13_26", "trial_complete": false, "targets": [{"target_path": "/app/test-equals-3.php", "requests": ["GET http://172.17.0.10/test-equals-3.php "], "methods": {"GET": 1}, "is_soapaction": false, "last_completed_trial": 0, "last_completed_refuzz": 0}]}]

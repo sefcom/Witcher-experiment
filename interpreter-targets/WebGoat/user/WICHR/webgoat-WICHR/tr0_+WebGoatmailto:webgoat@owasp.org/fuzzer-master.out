@@ -1,0 +1,61 @@
+TEST http://172.17.0.5:18080/WebGoatmailto:webgoat@owasp.org?&Subject=Webgoat%20feedback Using port:18080
+*** shmat attaching to mem_key=18080 shm_id=1 ***
+[WC] [34mSet afl_id = 9 and reqr_process_id = 96848 [0m
+RECVD AFL_SHM_ID of 9 and wrote to 18080
+[WC][FORK]Starting up Forker 96848 __AFL_SHM_ID=9
+[1;32m[WC][FORK]	Wrote to FORKSRV_FD[0m
+[WC][FORK]		INITIAL awaiting orders 96848
+[WC][FORK]		Creating communication channel to new child from 96848
+[WC][CHILD-FORK]			[33mlaunch cnt = 1, pids C=96849, P=96849, 0, afl_id=9[0m
+[WC][CHILD-FORK]			[33mlaunch cnt = 1 current process IS the child, pid == 96849[0m
+[WC][CHILD-FORK] AFL_SHM_ID=9, AFL ptr = 0x7f85684c0000 state=0 cap=0 afl_id=9 START BITS SET = 0
+SENDING REQUEST 
+in da curl
+Loading variable data :: 
+
+265375626A6563743D576562676F6174253230666565646261636B
+
+Variable data loadedin da curl
+Cookies = JSESSIONID=1ZhRg3u-6g0Q96B8uyzu7pO1eZV6zep1SdiKIbbC; path=/WebGoat
+gets = &Subject=Webgoat%20feedback
+posts = '&'
+PORT=18080
+Headers = 
+[WC][main] sending '&'
+original str = '&'
+[WC][main] sending POST '&'
+METHOD: POST
+[WC][main] URL=http://172.17.0.5:18080/WebGoatmailto:webgoat@owasp.org?&Subject=Webgoat%20feedback&&Subject=Webgoat%20feedback
+----------------------- HTTP REQUEST --------------------------
+POST http://172.17.0.5:18080/WebGoatmailto:webgoat@owasp.org?&Subject=Webgoat%20feedback HTTP/1.1
+Cookie: JSESSIONID=1ZhRg3u-6g0Q96B8uyzu7pO1eZV6zep1SdiKIbbC; path=/WebGoat
+Content-Type: application/x-www-form-urlencoded
+
+&
+--------------------- END HTTP REQUEST ------------------------
+----------------------- HTTP RESPONSE --------------------------
+Readbuffer = HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 0
+Date: Wed, 26 May 2021 23:15:36 GMT
+
+
+--------------------- END HTTP RESPONSE ------------------------
+[WC][CHILD-FORK] AFL_SHM_ID=9, AFL ptr = 0x7f85684c0000 state=0 cap=0 afl_id=0 END BITS SET = 0
+[WC][CHILD-FORK] Error information => 
+not clearing b/c in child
+[WC][FORK]Starting up Forker 96848 __AFL_SHM_ID=9
+[1;32m[WC][FORK]	Wrote to FORKSRV_FD[0m
+[WC][FORK]		INITIAL awaiting orders 96848
+[WC][FORK]		Creating communication channel to new child from 96848
+[WC][PARENT-FORK]		Check for child status from Parent 96848 for 96849 
+[WC][PARENT-FORK]		Check for child status from Parent 96848 for 96848 
+[WC][PARENT-FORK]		Going to waitpid on 96849 from 96848 
+[WC][PARENT-FORK]		Child exec of 17a51 completed, completed in 0.00300809 checking exit status, status=0 signal=0
+[36mAFL_ID = 9[0m
+[36mMEMCNT from run is 0
+[0m			RESULTS exited, status=0 signal=0, total_val=0
+[WC][PARENT-FORK]		End of Parent loop 96848, finished with 96849, claunch cnt = 1 
+
+[WC][FORK]		[1;32mRESET and awaiting orders 96848[0m
+EXITING PARENT and setting afl_id = 0

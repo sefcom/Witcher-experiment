@@ -1,2 +1,0 @@
-Date	Time	Binary	Target	Elapsed	Cores	Execs	Exec/sec	Cycles	Paths	Crashes	Reason	TestVer
-2021-05-20	17:26:32	/afl-php-cgi	/app/test-cookie-5.php   	14400	1	1276654	5	4981	1	0		
