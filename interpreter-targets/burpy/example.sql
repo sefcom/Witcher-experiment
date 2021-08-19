@@ -5,7 +5,7 @@ CREATE DATABASE example;
 USE example;
 
 CREATE TABLE dog(
-            id INT NOT NULL,
+            id  VARCHAR(100) NOT NULL,
             pname VARCHAR(100) NOT NULL,
             color VARCHAR(40) NOT NULL
     );

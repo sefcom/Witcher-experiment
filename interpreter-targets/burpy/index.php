@@ -33,6 +33,7 @@ if ($act == "a"){ ?>
     <option value="red_dog">Red Dog</option>
     <option value="grey_dog">Grey Dog</option>
   </select>
+  <input type="hidden" name="act" value="a"/>
   <input type="submit"/>
 </form>
 
@@ -47,7 +48,7 @@ if (count($inp) >= 2 && $act == "a") {
     $color = $conn->real_escape_string($color);
 
     $sql   = "INSERT into {$inp[1]} ";
-    $sql  .= "(id, pname, color) VALUES ({$pid},'{$pname}','{$color}')";
+    $sql  .= "(id, pname, color) VALUES ('{$pid}','{$pname}','{$color}')";
 
     echo '[QUERY1]: '.$sql;
     $ret   = mysqli_query($conn, $sql) or die(mysqli_error($conn));
