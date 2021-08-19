@@ -30,8 +30,8 @@ if ($act == "a"){ ?>
   <input name="pid" value="<?= $pid ?>">
 <?php } ?>
   Type: <select name="ptype">
-    <option value="red_dog">Red Dog</option>
-    <option value="grey_dog">Grey Dog</option>
+    <option value="red_dog_1">Red Dog</option>
+    <option value="grey_dog_2">Grey Dog</option>
   </select>
   <input type="hidden" name="act" value="a"/>
   <input type="submit"/>
