@@ -30,8 +30,8 @@ if ($act == "a"){ ?>
   <input name="pid" value="<?= $pid ?>">
 <?php } ?>
   Type: <select name="ptype">
-    <option value="red_dog_1">Red Dog</option>
-    <option value="grey_dog_2">Grey Dog</option>
+    <option value="dog_red">Red Dog</option>
+    <option value="dog_grey">Grey Dog</option>
   </select>
   <input type="hidden" name="act" value="a"/>
   <input type="submit"/>
@@ -40,14 +40,14 @@ if ($act == "a"){ ?>
 <?php
 $pname = $_GET["pname"];
 $inp = explode('_', $_GET["ptype"]);
-$color = $inp[0];
+$color = $inp[1];
 $pid = isset($pid) ? $pid : uniqid();
 if (count($inp) >= 2 && $act == "a") {
     $pid   = $conn->real_escape_string($pid);
     $pname = $conn->real_escape_string($pname);
     $color = $conn->real_escape_string($color);
 
-    $sql   = "INSERT into {$inp[1]} ";
+    $sql   = "INSERT into {$inp[0]} ";
     $sql  .= "(id, pname, color) VALUES ('{$pid}','{$pname}','{$color}')";
 
     echo '[QUERY1]: '.$sql;
@@ -56,7 +56,7 @@ if (count($inp) >= 2 && $act == "a") {
 }
     else if (count($inp) >= 2 && $act == "u"){ //TBD
         if (get_name($pid) != null){
-            $sql = "UPDATE dog SET color= '{$inp[0]}' ";
+            $sql = "UPDATE dog SET color= '{$color}' ";
             $sql .= "WHERE id = '{$pid}'";
             echo '[QUERY2]: '.$sql;
             $ret = mysqli_query($conn, $sql) or die(mysqli_error($conn));
