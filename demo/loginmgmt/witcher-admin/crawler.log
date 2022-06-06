@@ -1,0 +1,1239 @@
+docker exec -it -w /helpers/request_crawler/ -u wc loginmgmt-witcher-admin bash -i -c "timeout --signal KILL 14398s node main.js request_crawler http://localhost/ /p/Witcher-experiment/demo/loginmgmt/witcher-admin --no-headless "
+[
+  '/home/wc/.nvm/versions/node/v17.2.0/bin/node',
+  '/p/Witcher/base/helpers/request_crawler/main.js',
+  'request_crawler',
+  'http://localhost/',
+  '/p/Witcher-experiment/demo/loginmgmt/witcher-admin',
+  '--no-headless'
+]
+***************** No saved data found **************************
+docker exec -it -w /helpers/request_crawler/ -u wc loginmgmt-witcher-admin bash -i -c "timeout --signal KILL 14398s node main.js request_crawler http://localhost/ /p/Witcher-experiment/demo/loginmgmt/witcher-admin --no-headless "
+[
+  '/home/wc/.nvm/versions/node/v17.2.0/bin/node',
+  '/p/Witcher/base/helpers/request_crawler/main.js',
+  'request_crawler',
+  'http://localhost/',
+  '/p/Witcher-experiment/demo/loginmgmt/witcher-admin',
+  '--no-headless'
+]
+***************** No saved data found **************************
+Started worker  0
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 1 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 1 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 1 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+[38;5;28mhttp://localhost//admin, [38;5;11m0[0m
+[38;5;28mhttp://localhost/, [38;5;11m0[0m
+
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 1 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 1 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 1 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+[ 'GET http://localhost//admin ', 'GET http://localhost/ ' ]
+[[38;5;5mWC[0m] Browser launching with  url=http://localhost//admin 
+[WC] Performing login http://172.17.0.2/admin/index.php
+[Login] REQUESTING URL  http://172.17.0.2/admin/index.php
+[Login] URL GOTO'ed 
+[[38;5;2mWC[0m] [38;5;2m ADDED [0m--  -- GET http://172.17.0.2/admin/manage-users.php urllen=40 postlen=0 --  [0m
+[[38;5;5mWC[0m] Cookie: PHPSESSID=mnp04737pmghal4ajqd3b8l1du
+GOING TO requested page = http://localhost//admin
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost//admin
+[WC] Intercepted in processRequest  http://localhost/admin/ GET
+[[38;5;2mWC[0m] [38;5;2m ADDED [0m-- InterceptedRequest -- GET http://localhost/admin/ urllen=23 postlen=0 --  [0m
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+Error: Browser cannot connect to 'http://localhost//admin' RETRYING
+TimeoutError: Navigation timeout of 20000 ms exceeded
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:107:111
+    at async FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:130:21)
+    at async Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:16)
+    at async Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:16)
+    at async RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1802:32)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+GOING TO requested page = http://localhost//admin
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost//admin
+[WC] Intercepted in processRequest  http://localhost/admin/ GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+Error: Browser cannot connect to 'http://localhost//admin' RETRYING
+TimeoutError: Navigation timeout of 20000 ms exceeded
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:107:111
+    at async FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:130:21)
+    at async Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:16)
+    at async Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:16)
+    at async RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1802:32)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+GOING TO requested page = http://localhost//admin
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost//admin
+[WC] Intercepted in processRequest  http://localhost/admin/ GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+Error: Browser cannot connect to 'http://localhost//admin' RETRYING
+Error: net::ERR_ABORTED at http://localhost//admin
+    at navigate (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:155:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:130:21)
+    at async Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:16)
+    at async Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:16)
+    at async RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1802:32)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+Error: LAST ATTEMPT, giving up, browser cannot connect to 'http://localhost//admin'
+[WC] Round Results for round 1 of 3: Total Inputs :  0 Total Requests: 1 of 4 processed so far
+[WC] [38;5;10mRemoving page timer for browser [0m
+[38;5;12m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Completed http://localhost//admin ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ [0m
+
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+[[38;5;5mWC[0m] Browser launching with  url=http://localhost/ 
+[WC] Performing login http://172.17.0.2/admin/index.php
+[Login] REQUESTING URL  http://172.17.0.2/admin/index.php
+[Login] URL GOTO'ed 
+[[38;5;5mWC[0m] Cookie: PHPSESSID=bq1jn5uap7d71anttijhq7l5h6
+GOING TO requested page = http://localhost/
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost/
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/js/jquery.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/js/easyResponsiveTabs.js method= GET restype= script data= undefined
+[WC] Intercepted in processRequest  http://localhost/images/top-note.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/top-lock.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/top-key.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/bg.jpg GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/css/bootstrap.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/font-awesome/css/font-awesome.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/css/style-responsive.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/bootstrap.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.dcjqaccordion.2.7.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.scrollTo.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.nicescroll.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/common-scripts.js method= GET restype= script data= undefined
+[38;5;136mBrowser JS Error:
+	 TypeError: $(...).customSelect is not a function
+    at HTMLDocument.<anonymous> (http://172.17.0.2/admin/manage-users.php:132:30)
+    at c (http://172.17.0.2/admin/assets/js/jquery.js:4:26036)
+    at Object.fireWith [as resolveWith] (http://172.17.0.2/admin/assets/js/jquery.js:4:26840)
+    at Function.ready (http://172.17.0.2/admin/assets/js/jquery.js:4:3305)
+    at HTMLDocument.q (http://172.17.0.2/admin/assets/js/jquery.js:4:717) [0m
+[WC] status =  200 OK http://172.17.0.2/admin/manage-users.php
+loading gremscript from local 
+[WC] adding hasClicker to elements
+[WC] searchForURLSelector starting.
+[WC] check element hash = JSHandle:undefined object
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #0/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #1/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #2/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #3/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #4/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #5/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #6/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #7/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #8/9 completed
+[WC] searchForURLSelector starting.
+About to add code exercisers to page, u=admin pw=Test@123
+[WC] Alert OVERRIDE attaching script to [object HTMLHeadElement]
+[WC] ---------------- OVERRIDING window.alert ------------------------------
+[WC] usernameValue = admin passwordValue = Test@123
+[WC] Restarted Page -- going with Gremlins only
+[WC] Form Horde away!
+[WC] [38;5;10mReseting page timer [0m
+[WC] Starting timeout Loop #1 
+[WC] searchForURLSelector starting.
+[WC] check element hash = JSHandle:undefined object
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #0/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #1/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #2/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #3/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #4/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #5/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #6/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #7/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #8/9 completed
+[WC] searchForURLSelector starting.
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] W#0 manage-users.php Count 0 Round 1 loopcnt 1, added 0 reqs : Inputs: 3, (2/4) reqs left to process 
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost/
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/js/jquery.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/js/easyResponsiveTabs.js method= GET restype= script data= undefined
+[WC] Intercepted in processRequest  http://localhost/images/top-note.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/top-lock.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/top-key.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/bg.jpg GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/css/bootstrap.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/font-awesome/css/font-awesome.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/css/style-responsive.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/bootstrap.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.dcjqaccordion.2.7.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.scrollTo.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/jquery.nicescroll.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://172.17.0.2/admin/assets/js/common-scripts.js method= GET restype= script data= undefined
+[WC] status =  200 OK http://172.17.0.2/admin/manage-users.php
+loading gremscript from local 
+[WC] adding hasClicker to elements
+[WC] searchForURLSelector starting.
+About to add code exercisers to page, u=admin pw=Test@123
+[WC] Alert OVERRIDE attaching script to [object HTMLHeadElement]
+[WC] ---------------- OVERRIDING window.alert ------------------------------
+[WC] usernameValue = admin passwordValue = Test@123
+[WC] Restarted Page -- going with Gremlins only
+[WC] Form Horde away!
+[WC] check element hash = JSHandle:undefined object
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #0/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #1/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #2/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #3/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #4/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #5/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #6/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #7/9 completed
+[WC] cururl =  string http://172.17.0.2/admin/manage-users.php false 
+
+[WC] link #8/9 completed
+[WC] searchForURLSelector starting.
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+FIRST: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true gremlinsTime=0
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=0
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=3
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=6
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=9
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=12
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=15
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+LOOP: gremlinsHaveStarted = true gremlinsHaveFinished = false browser_up=true  gremlinsTime=18
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] Detected HASH CHANGE, replacing http://172.17.0.2/admin/manage-users.php# with http://172.17.0.2/admin/manage-users.php
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+[WC] puppeteer layer recieved url from browser with urlstr='alert  Do you really want to delete confirm'
+Error occurred while checking gremlins, restarting 
+Error Info:  ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:226:24
+    at new Promise (<anonymous>)
+    at CDPSession.send (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:222:16)
+    at ExecutionContext._evaluateInternal (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:95:24) {
+  originalMessage: undefined
+}
+[WC] [38;5;10mReseting page timer [0m
+[WC] Starting timeout Loop #2 
+received error in page. Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed. 
+[WC] searchForURLSelector starting.
+[WC] error encountered while trying to search for tag object http://172.17.0.2/admin/manage-users.php# a href 
+	 Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:214:35)
+    at ExecutionContext._evaluateInternal (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluateHandle (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:155:21)
+    at ElementHandle.evaluateHandle (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/JSHandle.js:120:46)
+    at Object.internalHandler.queryAll (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/QueryHandler.js:35:44)
+    at ElementHandle.$$ (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/JSHandle.js:707:29)
+    at DOMWorld.$$ (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:127:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestExplorer.searchForURLSelector (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:716:27)
+[WC] searchForURLSelector starting.
+[WC] error encountered while trying to search for tag object http://172.17.0.2/admin/manage-users.php# iframe src 
+	 Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:214:35)
+    at ExecutionContext._evaluateInternal (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluateHandle (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:155:21)
+    at ElementHandle.evaluateHandle (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/JSHandle.js:120:46)
+    at Object.internalHandler.queryAll (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/QueryHandler.js:35:44)
+    at ElementHandle.$$ (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/JSHandle.js:707:29)
+    at DOMWorld.$$ (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:127:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestExplorer.searchForURLSelector (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:716:27)
+trying http://localhost/ again
+Error: Browser cannot connect to http://localhost/
+Error: Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:214:35)
+    at navigate (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:148:47)
+    at FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:131:13)
+    at Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:41)
+    at Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:53)
+    at RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1892:48)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+ERRORS:
+	ERROR msg 'TypeError: $(...).customSelect is not a function' seen 2 times
+[WC] Round Results for round 1 of 3: Total Inputs :  7 Total Requests: 2 of 4 processed so far
+[WC] [38;5;10mRemoving page timer for browser [0m
+[38;5;12m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Completed http://localhost/ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ [0m
+
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+[[38;5;5mWC[0m] Browser launching with  url=http://172.17.0.2/admin/manage-users.php 
+[WC] Performing login http://172.17.0.2/admin/index.php
+[Login] REQUESTING URL  http://172.17.0.2/admin/index.php
+[Login] URL GOTO'ed 
+[WC] Caught interrupt signal, attempting to exit
+docker exec -it -w /helpers/request_crawler/ -u wc loginmgmt-witcher-admin bash -i -c "timeout --signal KILL 14398s node main.js request_crawler http://localhost/ /p/Witcher-experiment/demo/loginmgmt/witcher-admin --no-headless "
+[
+  '/home/wc/.nvm/versions/node/v17.2.0/bin/node',
+  '/p/Witcher/base/helpers/request_crawler/main.js',
+  'request_crawler',
+  'http://localhost/',
+  '/p/Witcher-experiment/demo/loginmgmt/witcher-admin',
+  '--no-headless'
+]
+ ************************* LOADING INCOMING ******************************
+ -- GET http://localhost//admin urllen=23 postlen=0 -- 
+ -- GET http://localhost/ urllen=17 postlen=0 -- 
+ -- GET http://172.17.0.2/admin/manage-users.php urllen=40 postlen=0 -- 
+InterceptedRequest -- GET http://localhost/admin/ urllen=23 postlen=0 -- 
+Started worker  0
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 0 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 0 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 0 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+[38;5;28mhttp://localhost//admin, [38;5;11m1[0m
+[38;5;28mhttp://localhost/, [38;5;11m1[0m
+[38;5;28mhttp://172.17.0.2/admin/manage-users.php, [38;5;11m1[0m
+[38;5;28mhttp://localhost/admin/, [38;5;11m0[0m
+
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 0 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 0 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+DoNeDoNeDoNeDoNeDoNeDoNeDoNe 0 DoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNeDoNe
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+CURRENT ROUND VALUE HAS INCREASED TO  1
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+[[38;5;5mWC[0m] Browser launching with  url=http://localhost/admin/ 
+[WC] Performing login http://172.17.0.2/admin/index.php
+[Login] REQUESTING URL  http://172.17.0.2/admin/index.php
+[Login] URL GOTO'ed 
+[[38;5;5mWC[0m] Cookie: PHPSESSID=a1g3acrtlt2anf1fvhlpleeg82
+GOING TO requested page = http://localhost/admin/
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost/admin/
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/bootstrap.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/font-awesome/css/font-awesome.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/style-responsive.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/jquery.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/bootstrap.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/jquery.backstretch.min.js method= GET restype= script data= undefined
+[WC] Intercepted in processRequest  http://localhost/admin/assets/img/login-bg.jpg GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+Error: Browser cannot connect to 'http://localhost/admin/' RETRYING
+TimeoutError: Navigation timeout of 20000 ms exceeded
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:107:111
+GOING TO requested page = http://localhost/admin/
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost/admin/
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/bootstrap.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/font-awesome/css/font-awesome.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/style-responsive.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/jquery.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/bootstrap.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/jquery.backstretch.min.js method= GET restype= script data= undefined
+[WC] Intercepted in processRequest  http://localhost/admin/assets/img/login-bg.jpg GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+Error: Browser cannot connect to 'http://localhost/admin/' RETRYING
+TimeoutError: Navigation timeout of 20000 ms exceeded
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:107:111
+GOING TO requested page = http://localhost/admin/
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost/admin/
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/bootstrap.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/font-awesome/css/font-awesome.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/css/style-responsive.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/jquery.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/bootstrap.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/admin/assets/js/jquery.backstretch.min.js method= GET restype= script data= undefined
+[WC] Intercepted in processRequest  http://localhost/admin/assets/img/login-bg.jpg GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+I think we are STUCKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+Broswer should have closed by now
+Error: Browser cannot connect to 'http://localhost/admin/' RETRYING
+Error: Navigation failed because browser has disconnected!
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:51:147
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/vendor/mitt/src/index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/vendor/mitt/src/index.js:51:43)
+    at CDPSession.emit (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/EventEmitter.js:72:22)
+    at CDPSession._onClosed (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:267:14)
+    at Connection._onClose (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:144:21)
+    at Connection.dispose (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:149:14)
+    at Browser.disconnect (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Browser.js:370:26)
+    at Browser.close (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Browser.js:362:14)
+Error: LAST ATTEMPT, giving up, browser cannot connect to 'http://localhost/admin/'
+[WC] Round Results for round 1 of 3: Total Inputs :  7 Total Requests: 4 of 4 processed so far
+[WC] [38;5;10mRemoving page timer for browser [0m
+[38;5;12m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Completed http://localhost/admin/ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ [0m
+
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+CURRENT ROUND VALUE HAS INCREASED TO  2
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+[[38;5;5mWC[0m] Browser launching with  url=http://localhost//admin 
+[WC] Performing login http://172.17.0.2/admin/index.php
+[Login] REQUESTING URL  http://172.17.0.2/admin/index.php
+[Login] URL GOTO'ed 
+[[38;5;5mWC[0m] Cookie: PHPSESSID=r46u9n1ehsu8c2l582k5pv23ls
+GOING TO requested page = http://localhost//admin
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost//admin
+[WC] Intercepted in processRequest  http://localhost/admin/ GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+Error: Browser cannot connect to 'http://localhost//admin' RETRYING
+TimeoutError: Navigation timeout of 20000 ms exceeded
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:107:111
+    at async FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:130:21)
+    at async Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:16)
+    at async Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:16)
+    at async RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1802:32)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+GOING TO requested page = http://localhost//admin
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost//admin
+[WC] Intercepted in processRequest  http://localhost/admin/ GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+Error: Browser cannot connect to 'http://localhost//admin' RETRYING
+TimeoutError: Navigation timeout of 20000 ms exceeded
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/LifecycleWatcher.js:107:111
+    at async FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:130:21)
+    at async Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:16)
+    at async Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:16)
+    at async RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1802:32)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+GOING TO requested page = http://localhost//admin
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost//admin
+[WC] Intercepted in processRequest  http://localhost/admin/ GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+I think we are STUCKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+Broswer should have closed by now
+Error: Browser cannot connect to 'http://localhost//admin' RETRYING
+ProtocolError: Protocol error (Page.navigate): Target closed.
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:226:24
+    at new Promise (<anonymous>)
+    at CDPSession.send (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:222:16)
+    at navigate (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:148:47)
+    at FrameManager.navigateFrame (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:131:13)
+    at Frame.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:500:41)
+    at Page.goto (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1167:53)
+    at RequestExplorer.exerciseTarget (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:1802:43)
+    at async RequestExplorer.start (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2697:17)
+    at async explorationWorker (file:///p/Witcher/base/helpers/request_crawler/main.js:143:9)
+Error: LAST ATTEMPT, giving up, browser cannot connect to 'http://localhost//admin'
+[WC] Round Results for round 2 of 3: Total Inputs :  7 Total Requests: 1 of 4 processed so far
+[WC] [38;5;10mRemoving page timer for browser [0m
+[38;5;12m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Completed http://localhost//admin ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ [0m
+
+[
+  'GET http://localhost//admin ',
+  'GET http://localhost/ ',
+  'GET http://172.17.0.2/admin/manage-users.php ',
+  'GET http://localhost/admin/ '
+]
+[[38;5;5mWC[0m] Browser launching with  url=http://localhost/ 
+[WC] Performing login http://172.17.0.2/admin/index.php
+[Login] REQUESTING URL  http://172.17.0.2/admin/index.php
+[Login] URL GOTO'ed 
+[[38;5;5mWC[0m] Cookie: PHPSESSID=km530i0cs34j6dj951d6ah0988
+GOING TO requested page = http://localhost/
+[38;5;5mprocessRequest caught to add method and data and continueing [0m http://localhost/
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/css/style.css method= GET restype= stylesheet data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/js/jquery.min.js method= GET restype= script data= undefined
+CSS/JS Request Coming THROUGH!!!!!  http://localhost/js/easyResponsiveTabs.js method= GET restype= script data= undefined
+[WC] Intercepted in processRequest  http://localhost/images/top-note.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/top-lock.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/top-key.png GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] Intercepted in processRequest  http://localhost/images/bg.jpg GET
+Caught exception: TypeError: fRequest.getRequestKey is not a function
+TypeError: fRequest.getRequestKey is not a function
+    at AppData.addRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:423:31)
+    at processRequest (file:///p/Witcher/base/helpers/request_crawler/input_sifter2.js:2509:47)
+    at /p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:219:52
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HTTPRequest.finalizeInterceptions (/p/Witcher/base/helpers/request_crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPRequest.js:133:9)
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+[WC] puppeteer layer recieved url from browser with urlstr='put elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o'
+[WC] Caught interrupt signal, attempting to exit

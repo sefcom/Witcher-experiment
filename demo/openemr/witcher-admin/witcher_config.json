@@ -1,0 +1,47 @@
+{
+  "testname": "openemr-admin",
+  "afl_inst_interpreter_binary": "/usr/local/bin/php-cgi",
+  "wc_inst_interpreter_binary": "/usr/local/bin/php-cgi",
+  "base_url": "http://172.17.0.2:@@PORT_INCREMENT@@/",
+  "base_url_path": "/openemr",
+  "afl_path": "/afl",
+  "ld_library_path":"/wclibs",
+  "afl_preload":"/wclibs/lib_db_fault_escalator.so",
+  "number_of_trials": 1,
+  "number_of_refuzzes": 1,
+  "timeout" : 1200,
+  "run_timeout": 5000,
+  "server_base_port": 80,
+  "script_skip_list": [],
+  "script_random_order": 0,
+  "cores": 1,
+  "binary_options":"",
+  "request_crawler": {
+    "form_url" : "http://172.17.0.2/openemr",
+    "usernameSelector": "[name=authUser]",
+    "usernameValue": "admin",
+    "passwordSelector": "[name=clearPass]",
+    "passwordValue": "pass",
+    "submitType": "enter",
+    "positiveLoginMessage": "messages/messages.php",
+    "method": "POST",
+      "form_selector": "",
+    "form_submit_selector": "",
+    "ignoreValues": [],
+    "urlUniqueIfValueUnique": []
+  },
+
+  "direct":{
+    "url": "/var/www/openemr/interface/main/main_screen.php",
+    "postData": "new_login_session_management=1&authProvider=Default&authUser=admin&clearPass=pass&languageChoice=1",
+    "getData": "auth=login&site=default",
+    "method": "POST",
+    "positiveHeaders":{"Location":"/openemr/interface/main/tabs/main.php"},
+    "positiveBody": "",
+    "cgiBinary": "/usr/local/bin/php-cgi",
+    "loginSessionCookie" : "PHPSESSID",
+    "mandatoryGet": "",
+    "extra_authorized_requests": [{"url": ""}]
+  }
+
+}
