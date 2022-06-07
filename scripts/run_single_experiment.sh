@@ -34,7 +34,8 @@ if [[ -z "${app_user_role}" ]]; then
    exit 154
 fi 
 set -x
-target_app_dpath="$(realpath $(find $BASE_DIR -maxdepth 2 -type d -name "$target_app_name"))"
+
+target_app_dpath="$(realpath $(find $BASE_DIR -maxdepth 2 -type d -name "$target_app_name"| grep "$(basename $(pwd))"))"
 echo ${target_app_dath}
 echo ${app_user_role}
 app_role_dpath="${target_app_dpath}/${app_user_role}"
@@ -322,7 +323,7 @@ if [[ ${DO_CRAWL} = true ]]; then
         echo docker exec -it -w /helpers/request_crawler/ -u wc  ${docker_container_name} bash -i -c '"'timeout --signal KILL $(( $DURATION_SEC - $diff ))s  node main.js request_crawler http://localhost$base_url_path $(pwd) --no-headless >> ${app_role_dpath}/crawler.log '"'
         set -x
         echo
-        docker exec -it -w /p/Witcher/base/helpers/request_crawler/  -u wc ${docker_container_name} bash -i -c "timeout --signal KILL $(( $DURATION_SEC - $diff ))s  node main.js request_crawler http://localhost$base_url_path $(pwd) --no-headless  >> ${app_role_dpath}/crawler.log "
+        docker exec -it -w /helpers/request_crawler/  -u wc ${docker_container_name} bash -i -c "timeout --signal KILL $(( $DURATION_SEC - $diff ))s  node main.js request_crawler http://localhost$base_url_path $(pwd) --no-headless  >> ${app_role_dpath}/crawler.log "
         set +x
         exit 99
         docker exec -it -w /helpers/request_crawler/  ${docker_container_name} rm /tmp/coverages/execs.json
