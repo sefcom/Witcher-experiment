@@ -1,0 +1,534 @@
+[
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "GET",
+      "params": {
+         "GET": {},
+         "POST": {}
+      }
+   },
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "username": [
+               ""
+            ],
+            "password": [
+               ""
+            ],
+            "login": [
+               ""
+            ],
+            "": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/welcome.php",
+      "method": "GET",
+      "params": {
+         "GET": {},
+         "POST": {}
+      }
+   },
+   {
+      "url": "http://localhost/logout.php",
+      "method": "GET",
+      "params": {
+         "GET": {},
+         "POST": {}
+      }
+   },
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "username": [
+               ""
+            ],
+            "password": [
+               ""
+            ],
+            "login": [
+               "Submit"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "username": [
+               "Witcher"
+            ],
+            "password": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "username": [
+               "Witcher"
+            ],
+            "password": [
+               "rogerroger10%21"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "username": [
+               "Witcher"
+            ],
+            "password": [
+               "rogerroger10%21"
+            ],
+            "login": [
+               "Submit"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/admin/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "username": [
+               "127.0.0.1"
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "login": [
+               ""
+            ],
+            "": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "GET",
+      "params": {
+         "GET": {},
+         "POST": {}
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               ""
+            ],
+            "lname": [
+               ""
+            ],
+            "email": [
+               ""
+            ],
+            "password": [
+               ""
+            ],
+            "contact": [
+               ""
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "uemail": [
+               ""
+            ],
+            "password": [
+               ""
+            ],
+            "login": [
+               "LOG%20IN"
+            ],
+            "": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "femail": [
+               ""
+            ],
+            "send": [
+               "Send%20Email"
+            ],
+            "": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "uemail": [
+               "2"
+            ],
+            "password": [
+               ""
+            ],
+            "login": [
+               "LOG+IN"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {}
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "femail": [
+               "127.0.0.1"
+            ],
+            "send": [
+               "Send+Email"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "femail": [
+               "Witcher"
+            ],
+            "send": [
+               "Send+Email"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "uemail": [
+               "127.0.0.1"
+            ],
+            "password": [
+               "rogerroger10%21"
+            ],
+            "login": [
+               "LOG+IN"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "femail": [
+               "Witcher"
+            ],
+            "send": [
+               "Send%20Email"
+            ],
+            "": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "uemail": [
+               "127.0.0.1"
+            ],
+            "password": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "uemail": [
+               "2"
+            ],
+            "password": [
+               "rogerroger10%21"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               "2"
+            ],
+            "lname": [
+               "127.0.0.1"
+            ],
+            "email": [
+               "2"
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "contact": [
+               "2"
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               "127.0.0.1"
+            ],
+            "lname": [
+               "Witcher"
+            ],
+            "email": [
+               "Witcher"
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "contact": [
+               "127.0.0.1"
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "uemail": [
+               "Witcher"
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "login": [
+               "LOG%20IN"
+            ],
+            "": [
+               ""
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               "Witcher"
+            ],
+            "lname": [
+               "2"
+            ],
+            "email": [
+               "Witcher"
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "contact": [
+               "2"
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               "Witcher"
+            ],
+            "lname": [
+               "127.0.0.1"
+            ],
+            "email": [
+               ""
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "contact": [
+               "127.0.0.1"
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               "127.0.0.1"
+            ],
+            "lname": [
+               ""
+            ],
+            "email": [
+               "127.0.0.1"
+            ],
+            "password": [
+               "rogerroger10!"
+            ],
+            "contact": [
+               "2"
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   },
+   {
+      "url": "http://localhost/index.php",
+      "method": "POST",
+      "params": {
+         "GET": {},
+         "POST": {
+            "fname": [
+               "127.0.0.1"
+            ],
+            "lname": [
+               "127.0.0.1"
+            ],
+            "email": [
+               "Witcher"
+            ],
+            "password": [
+               ""
+            ],
+            "contact": [
+               "Witcher"
+            ],
+            "": [
+               ""
+            ],
+            "signup": [
+               "Sign%20Up"
+            ]
+         }
+      }
+   }
+]

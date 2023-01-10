@@ -1,0 +1,29 @@
+FROM witcherfuzz/phpwebfuzz
+
+RUN apt-get update && apt-get install -y php-fpm nginx php-mysql
+
+ADD rconfig2 /home/rconfig
+RUN chown www-data /home/rconfig -R
+
+RUN add-apt-repository ppa:ondrej/php && apt-get update && apt-get install -y php7.3-fpm php7.3-mysql
+
+RUN rm -f /etc/nginx/sites-enabled/default
+ADD nginx.conf /etc/nginx/sites-enabled/rconfig
+
+COPY php.ini /etc/php/7.3/fpm/php.ini
+
+ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ADD exploit.py /exploit.py
+
+#COPY dash.64 /bin/dash
+COPY libcgiwrapper.so /lib/libcgiwrapper.so
+
+ARG USE_INSTRUMENTED
+COPY www_instrumented /root/app_instrumented
+RUN bash -c 'if [ "${USE_INSTRUMENTED}" == "1" ]; then mv /home/rconfig/www /root/rconfig_orig; cp -a /root/app_instrumented  /home/rconfig/www ; chown -R www-data /home/rconfig/www ; fi'
+
+EXPOSE 8080:8080
+
+ENTRYPOINT /entrypoint.sh

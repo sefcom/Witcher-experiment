@@ -1,0 +1,34 @@
+start_time        : 1621121956
+last_update       : 1621123109
+stage_name        : interest 32/8
+fuzzer_pid        : 719372
+cycles_done       : 7
+execs_done        : 181465
+execs_per_sec     : 187.57
+paths_total       : 24
+paths_favored     : 6
+paths_found       : 6
+paths_imported    : 0
+max_depth         : 4
+cur_path          : 20
+pending_favs      : 0
+pending_total     : 1
+variable_paths    : 2
+stability         : 92.59%
+bitmap_cvg        : 0.21%
+unique_crashes    : 5
+unique_hangs      : 2
+last_path         : 1621122437
+last_crash        : 1621122458
+last_hang         : 1621122731
+execs_since_crash : 84079
+exec_timeout      : 5000
+afl_banner        : fuzzer-master
+afl_version       : 2.52b
+target_mode       : default
+command_line      : /afl/afl-fuzz -i ./WICHR/work/initial_seeds -o ./WICHR/work -m 8G -M fuzzer-master -x ./WICHR/work/dict.txt -t 5000+ -- /usr/local/bin/php-cgi 
+execs_http        : 5666
+paths_havoc       : 1
+paths_split       : 4
+paths_http_qc     : 0
+paths_http_dict   : 3
